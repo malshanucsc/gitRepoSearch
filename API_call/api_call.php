@@ -16,11 +16,11 @@ curl_setopt($curl, CURLOPT_HEADER, 0);
 
 
 
-$json = file_get_contents('http://api.github.com/search/repositories?q=login&language=php&sort=stars&order=desc');
+//$json = file_get_contents('http://api.github.com/search/repositories?q=login&language=php&sort=stars&order=desc');
 
 // Decode the JSON string into an object
-$obj = json_decode($json);
-var_dump($obj->results[0]->formatted_address);
+//$obj = json_decode($json);
+//var_dump($obj->results[0]->formatted_address);
 //echo "$obj";
 if ($curl_response === false) {
     $info = curl_getinfo($curl);
