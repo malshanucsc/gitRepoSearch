@@ -1,0 +1,285 @@
+{
+	"company": [{
+		"company_id": "1",
+		"company_name": "Bobbin",
+		"status":"1",
+		"departments": [{
+			"dep_id": "1",
+			"dep_name": "Marketing"	,
+			"code":"1-5706",
+			"ref": "3",
+			"bob_ref" : "1"
+		},{
+			"dep_id": "2",
+			"dep_name": "Services",
+			"code":"1-5713",
+			"ref": "4",
+			"bob_ref" : "2"
+		},{
+			"dep_id": "3",
+			"dep_name": "Hospitality",
+			"code":"1-5707",
+			"ref": "16",
+			"bob_ref" : ""
+		},{
+			"dep_id": "4",
+			"dep_name": "Punching",
+			"code":"1-5717",
+			"ref": "14",
+			"bob_ref" : ""
+		},{
+			"dep_id": "5",
+			"dep_name": "Jet"
+		},{
+			"dep_id": "6",
+			"dep_name": "Rent"
+		},{
+			"dep_id": "7",
+			"dep_name": "Hotel",
+			"ref": "19",
+			"bob_ref" : "11"
+		}]
+	},
+	{
+		"company_id": "6",
+		"company_name": "Bob",
+		"status":"0",
+		"departments": [{
+			"dep_id": "1",
+			"dep_name": "Marketing"	,
+			"code":"1-5706"
+		},{
+			"dep_id": "2",
+			"dep_name": "Services",
+                        "code":"1-5713"
+		},{
+			"dep_id": "3",
+			"dep_name": "Hospitality",
+                        "code":"1-5707"
+		},{
+			"dep_id": "4",
+			"dep_name": "Punching",
+                        "code":"1-5717"
+		},{
+			"dep_id": "5",
+			"dep_name": "Jet"
+		},{
+			"dep_id": "6",
+			"dep_name": "Rent"
+		},{
+			"dep_id": "7",
+			"dep_name": "Hotel"
+		}]
+	}, {
+		"company_id": "2",
+		"status":"1",
+		"company_name": "Apparel Technologies",
+		"departments": [{
+			"dep_id": "1",
+			"dep_name": "Bonding",
+                        "code":"1-5716"		
+		},{
+			"dep_id": "2",
+			"dep_name": "Prod Admin",
+                        "code":"1-5701"
+		},{
+			"dep_id": "3",
+			"dep_name": "Prod Ex",
+                        "code":"1-5701"
+		},{
+			"dep_id": "4",
+			"dep_name": "Baru Admin",
+                        "code":"1-5702"
+		},{
+			"dep_id": "5",
+			"dep_name": "Baru Ex",
+                        "code":"1-5702"
+		},{
+			"dep_id": "6",
+			"dep_name": "Baru General",
+			"code":"1-5702"
+		},{
+			"dep_id": "7",
+			"dep_name": "Baru Services",
+			"code":"1-5702"
+		},{
+			"dep_id": "8",
+			"dep_name": "Apparel Lec Admin",
+                        "code":"1-5706"
+		},{
+			"dep_id": "9",
+			"dep_name": "Apparel Lec Ex",
+                        "code":"1-5706"
+		},{
+			"dep_id": "10",
+			"dep_name": "Apparel Lec General",
+			"code":"1-5706"
+		},{
+			"dep_id": "11",
+			"dep_name": "Apparel Lec Services",
+			"code":"1-5706"
+		},{
+			"dep_id": "12",
+			"dep_name": "Apparel Fini Admin",
+                        "code":"1-5705"
+		},{
+			"dep_id": "13",
+			"dep_name": "Apparel Rent",
+                        "code":"1-5715"
+		},{
+			"dep_id": "14",
+			"dep_name": "Embroidery Operation",
+			"code":"1-5715",
+			"ref": "15",
+			"bob_ref" : ""
+		},{
+			"dep_id": "15",
+			"dep_name": "Embroidery General",
+			"code":"1-5715",
+			"ref": "1",
+			"bob_ref" : "7"
+		},{
+			"dep_id": "16",
+			"dep_name": "Embroidery Supervisors",
+			"code":"1-5715",
+			"ref": "2",
+			"bob_ref" : ""
+		},{
+			"dep_id": "17",
+			"dep_name": "Punching",
+			"code":"1-5715"
+		},{
+			"dep_id": "18",
+			"dep_name": "Finishing",
+			"code":"1-5715",
+			"ref": "17",
+			"bob_ref" : ""
+		},{
+			"dep_id": "19",
+			"dep_name": "Sequins",
+			"code":"1-5715",
+			"ref": "5",
+			"bob_ref" : "3"
+		},{
+			"dep_id": "20",
+			"dep_name": "Linea Aqua",
+			"code":"1-5715"
+		}]
+	},
+	{
+		"company_id": "8",
+		"company_name": "App",
+		"status":"0",
+		"departments": [{
+			"dep_id": "1",
+			"dep_name": "Bonding",
+			"code":"1-5716",
+			"ref": "18",
+			"bob_ref" : "12"
+		},{
+			"dep_id": "2",
+			"dep_name": "Prod Admin",
+                        "code":"1-5701"
+		},{
+			"dep_id": "3",
+			"dep_name": "Prod Ex",
+                        "code":"1-5701"
+		},{
+			"dep_id": "4",
+			"dep_name": "Baru Admin",
+                        "code":"1-5702"
+		},{
+			"dep_id": "5",
+			"dep_name": "Baru Ex",
+                        "code":"1-5702"
+		},{
+			"dep_id": "6",
+			"dep_name": "Baru General",
+			"code":"1-5702",
+			"ref": "8",
+			"bob_ref" : "8"
+		},{
+			"dep_id": "7",
+			"dep_name": "Baru Services",
+			"code":"1-5702",
+			"ref": "9",
+			"bob_ref" : ""
+		},{
+			"dep_id": "8",
+			"dep_name": "Apparel Lec Admin",
+                        "code":"1-5706"
+		},{
+			"dep_id": "9",
+			"dep_name": "Apparel Lec Ex",
+                        "code":"1-5706"
+		},{
+			"dep_id": "10",
+			"dep_name": "Apparel Lec General",
+			"code":"1-5706",
+			"ref": "6",
+			"bob_ref" : "6"
+		},{
+			"dep_id": "11",
+			"dep_name": "Apparel Lec Services",
+			"code":"1-5706",
+			"ref": "7",
+			"bob_ref" : ""
+		},{
+			"dep_id": "12",
+			"dep_name": "Apparel Fini Admin",
+                        "code":"1-5705"
+		},{
+			"dep_id": "13",
+			"dep_name": "Apparel Rent",
+			"code":"1-5715",
+			"ref": "10",
+			"bob_ref" : "9"
+		},{
+			"dep_id": "14",
+			"dep_name": "Embroidery Operation",
+			"code":"1-5715"
+		},{
+			"dep_id": "15",
+			"dep_name": "Embroidery General",
+			"code":"1-5715"
+		},{
+			"dep_id": "16",
+			"dep_name": "Embroidery Supervisors",
+			"code":"1-5715"
+		},{
+			"dep_id": "17",
+			"dep_name": "Punching",
+			"code":"1-5715"
+		},{
+			"dep_id": "18",
+			"dep_name": "Finishing",
+			"code":"1-5715"
+		},{
+			"dep_id": "19",
+			"dep_name": "Sequins",
+			"code":"1-5715"
+		},{
+			"dep_id": "20",
+			"dep_name": "Linea Aqua",
+			"code":"1-5715",
+			"ref": "11",
+			"bob_ref" : "10"
+		}]
+	}
+	, {
+		"company_id": "3",
+		"company_name": "Interco Services",
+		"status":"1",
+		"departments": [{
+			"dep_id": "1",
+			"dep_name": "Admin",
+                        "code":"1-5710"	
+		},{
+			"dep_id": "2",
+			"dep_name": "Operations",
+			"code":"1-5718",
+			"ref": "13",
+			"bob_ref" : "5"
+		}]
+	}]
+}
