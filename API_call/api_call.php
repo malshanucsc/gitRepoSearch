@@ -1,37 +1,16 @@
 <?php
-search();
+
+return search();
 function search(){
 
-$service_url = "http://api.github.com/search/repositories?q=login&language=php&sort=stars&order=desc";
-$curl = curl_init();
-//curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-//curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl,CURLOPT_URL,$service_url );
-curl_setopt($curl, CURLOPT_HEADER, 0);
-	$curl_response = curl_exec($curl);
-
-//$json = file_get_contents($service_url);
-//$obj = json_decode($json,true);
-//echo $obj->access_token;
+$service_url = 'http://api.github.com/search/repositories?q=login&language=php&sort=stars&order=desc';
 
 
-
-//$json = file_get_contents('http://api.github.com/search/repositories?q=login&language=php&sort=stars&order=desc');
-
-// Decode the JSON string into an object
-//$obj = json_decode($json);
-//var_dump($obj->results[0]->formatted_address);
-//echo "$obj";
-if ($curl_response === false) {
-    $info = curl_getinfo($curl);
-    curl_close($curl);
-    die('error occured during curl exec. Additioanl info: ' . var_export($info));
-}
-curl_close($curl);
-$decoded = json_decode($curl_response);
-
-echo "$decoded";
-
+//$map_url='https://maps.googleapis.com/maps/api/geocode/json?address='.urlencode($location);
+	$maps_json=file_get_contents($service_url);
+	$maps_array=json_decode($maps_json,true);
+	return 1;
+	echo "$maps_array";
 
 }
 

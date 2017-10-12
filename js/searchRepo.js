@@ -23,12 +23,12 @@ function search(){
                      url : 'API_call/api_call.php',
                      data : {q:inputtext},
                      success: function(data) {
-                      
+                     alert(data);
                      },
                      error: function(jqXHR){
                         
                       alert("Error in ajax call");
-                        //jqXHR.responseText
+                        jqXHR.responseText
                      }
                  });
                
